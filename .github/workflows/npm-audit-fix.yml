@@ -21,6 +21,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     env:
       # env variable for maintainers: 'false' disables auto-merge for these pull requests
